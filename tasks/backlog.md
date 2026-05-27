@@ -25,6 +25,27 @@ All actionable tasks extracted from analyzed YouTube videos.
 - [ ] [SOURCE: 32-tricks-nate-herk] Document sub-agent model selection pattern: Haiku for bulk reads/scrapes, Sonnet/Opus for main thread
 - [ ] [SOURCE: 32-tricks-nate-herk] Document screenshot loop pattern for frontend: design → screenshot → revise → 3 passes before V1
 
+---
+
+## From: html-markdown-thariq (2026-05-26)
+
+### Implement Now — Zero Friction
+- [x] [SOURCE: html-markdown-thariq] Add to global CLAUDE.md: "For plans longer than 1 screen, generate HTML not Markdown"
+- [x] [SOURCE: html-markdown-thariq] Add to global CLAUDE.md: "You are a compute allocator — spec quality determines output quality"
+- [ ] [SOURCE: html-markdown-thariq] Create `templates/plan_template.html` — reusable HTML plan scaffold (sections: overview, types, mockups, file structure, verification criteria)
+
+### High Priority
+- [ ] [SOURCE: html-markdown-thariq] Update youtube_analyzer reports to generate `.html` versions alongside `.md` (richer, actually readable)
+- [ ] [SOURCE: html-markdown-thariq] Create `~/.claude/skills/html-spec.md` skill — guides Claude through: brainstorm → interview → HTML plan → micro-app editing → clear context → implement
+- [ ] [SOURCE: html-markdown-thariq] Create a living `design.html` file for any frontend work in antigravity (colors, typography, spacing, core components)
+- [ ] [SOURCE: html-markdown-thariq] Add brainstorm step to youtube_analyzer CLAUDE.md: before analyzing, brainstorm extraction angles in HTML
+
+### Behavioral / Reference
+- [ ] [SOURCE: html-markdown-thariq] Add to CLAUDE.md: "Always give Claude an out with 'whatever is needed' — don't over-constrain with rigid skill instructions"
+- [ ] [SOURCE: html-markdown-thariq] Document micro-app editing pattern: when a plan section needs editing, build throwaway HTML UI → edit visually → copy back
+- [ ] [SOURCE: html-markdown-thariq] Add verification step to youtube_analyzer pipeline: after analysis, confirm tasks were actually written to backlog
+- [ ] [SOURCE: html-markdown-thariq] Try weekly HTML status update pattern: Claude reads recent session outputs → generates HTML summary
+
 ### Already Done (tracked for reference)
 - [x] [SOURCE: 32-tricks-nate-herk] Custom skills library (hack #12) — extensive library in ~/.claude/skills/
 - [x] [SOURCE: 32-tricks-nate-herk] Sub-agents for parallel work (hack #11) — dispatching-parallel-agents.md skill
