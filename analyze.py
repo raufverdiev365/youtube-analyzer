@@ -125,9 +125,14 @@ def get_metadata(url: str) -> dict:
         "socket_timeout": 20,
         "logtostderr": False,
         "logger": type("NullLogger", (), {
-            "debug": lambda s, m: None,
-            "warning": lambda s, m: None,
-            "error": lambda s, m: None,
+            "debug":     lambda s, m: None,
+            "info":      lambda s, m: None,
+            "warning":   lambda s, m: None,
+            "error":     lambda s, m: None,
+            "stdout":    lambda s, m: None,
+            "trace":     lambda s, m: None,
+            "log_level": None,
+            "prefix":    "",
         })(),
     }
 
