@@ -54,3 +54,12 @@ All actionable tasks extracted from analyzed YouTube videos.
 - [x] [SOURCE: 32-tricks-nate-herk] Git worktrees skill (hack #23) — using-git-worktrees.md
 - [x] [SOURCE: 32-tricks-nate-herk] Context7 MCP active by default (hack #32)
 - [x] [SOURCE: 32-tricks-nate-herk] Verification before completion (hack #10) — verification-before-completion.md skill
+
+## From: 2026-06-10_mobile-apps-claude-code-saraev (Apex Sales iOS buildout)
+- [ ] [SOURCE: mobile-apps-saraev] Run a structured pre-submission security audit on the iOS app (tiered severity, CWE labels); fix; then re-run the same audit in a FRESH session to catch fix-introduced regressions. Start with: WebSocket token in URL path, keychain/token-refresh handling, PII in logs, ATS config.
+- [ ] [SOURCE: mobile-apps-saraev] Add a hidden DEBUG-only dev/QA menu (reset onboarding, clear keychain+caches, seed demo data, jump to any v1 screen) to speed manual device validation.
+- [ ] [SOURCE: mobile-apps-saraev] Sample-audit every FoundationModels prompt (SmartReplyBar, DailyBriefingView, AskAISheet): generate 10+ outputs each, tune prompts, regenerate before App Review.
+- [ ] [SOURCE: mobile-apps-saraev] Performance pass: parallelize TasksStore's sequential per-communication detail fetches (TaskGroup w/ small concurrency cap); measure screen load times before/after.
+- [ ] [SOURCE: mobile-apps-saraev] Close the design loop: feed docs/screenshots/2026-06-09-appstore-6.9 PNGs through Claude to enumerate cross-screen inconsistencies; fix as one batch.
+- [ ] [SOURCE: mobile-apps-saraev] Add a "Post-launch" section to APP_STORE_CHECKLIST.md: ASC analytics review cadence, custom product pages, promo codes for early users.
+- [ ] [SOURCE: mobile-apps-saraev] Borrow the core-loop reward idea: add haptic + visual confirmation on disposition-submit and task-complete (the app's two highest-frequency actions).

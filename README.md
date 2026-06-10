@@ -28,3 +28,4 @@ youtube_analyzer/
 | Date | Video | Report | Tasks |
 |------|-------|--------|-------|
 | 2026-05-20 | [32 Tricks to Level Up Claude Code](https://youtu.be/jqoFP9QapXI) — Nate Herk | `reports/tips-tricks/2026-05-20_32-tricks-nate-herk_report.md` | 9 tasks (2 done) |
+| 2026-06-10 | [How to Build Mobile Apps with Claude Code: Full Course](https://youtu.be/BMMcmmnjrM8) — Nick Saraev | `reports/2026-06-10_mobile-apps-claude-code-saraev_report.md` | 7 tasks (0 done) |
